@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bggradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1f3f"/>
+      <stop offset="50%" stop-color="#122754"/>
+      <stop offset="100%" stop-color="#08122a"/>
+    </linearGradient>
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#15bdf5"/>
+      <stop offset="100%" stop-color="#4c48ff"/>
+    </linearGradient>
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30f2fe"/>
+      <stop offset="100%" stop-color="#8093ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(32,180,255,0.9)"/>
+      <stop offset="100%" stop-color="rgba(13,42,92,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bggradient)"/>
+  <g opacity="0.5">
+    <circle cx="180" cy="160" r="90" fill="url(#glow)"/>
+    <circle cx="520" cy="340" r="120" fill="url(#glow)"/>
+  </g>
+  <g stroke="url(#neonBlue)" stroke-width="3" fill="none" opacity="0.8">
+    <rect x="60" y="60" width="520" height="360" rx="28"/>
+    <rect x="100" y="110" width="440" height="260" rx="22"/>
+  </g>
+  <g opacity="0.85">
+    <path d="M322 128c54 0 94 31 94 88 0 42-20 70-54 81l40 61h-72l-29-52h-32v52h-70V128h123zm-53 115h51c24 0 38-14 38-34 0-21-14-34-38-34h-51v68z" fill="url(#neonBlue)"/>
+  </g>
+  <g fill="none" stroke="url(#neonPink)" stroke-width="4" opacity="0.8">
+    <path d="M180 368l70-126 60 96 60-144 90 174"/>
+  </g>
+  <g fill="#0c1b3b" opacity="0.55">
+    <rect x="130" y="150" width="380" height="40" rx="14"/>
+    <rect x="170" y="210" width="300" height="24" rx="12"/>
+    <rect x="160" y="250" width="320" height="24" rx="12"/>
+  </g>
+</svg>
